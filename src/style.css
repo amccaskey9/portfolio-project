@@ -87,18 +87,23 @@ p {
 .container p {
   font-size: 16px;
 }
-
-.about-info {
+.info-container {
   margin: 150px 15px;
 }
-
-.about-info h1 {
+.info-container h1 {
   font-size: 64px;
 }
-
-.about-info h2 {
+.info-container h2 {
   font-family: var(--default-font-family);
   font-size: 18px;
+}
+
+.portfolio h2 {
+  font-size: 24px;
+}
+
+.portfolio p {
+  font-size: 14px;
 }
 
 @media (max-width: 576px) {
@@ -114,7 +119,8 @@ p {
     font-size: 32px;
   }
 
-  .about-info h1 {
-    font-size: 50px;
+  .info-container h1 {
+    font-size: 45px;
+    text-align: center;
   }
 }
